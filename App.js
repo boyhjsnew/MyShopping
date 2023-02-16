@@ -18,14 +18,6 @@ export default function App() {
         <Stack.Navigator
         screenOptions={{headerShown:false}}>
           <Stack.Screen
-          options={({navigation})=>{
- 
-
-            headerLeft: ()=>{
-              <DrawerButton onPress={() => navigation.toggleDrawer()} />
-            }
-          }}
-    
           name='Main'
           component={Main}>
           </Stack.Screen>
