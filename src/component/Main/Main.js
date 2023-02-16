@@ -1,6 +1,8 @@
 //import liraries
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import Menu from './Menu';
+import Shop from './Shop/Shop';
 
 // create a component
 const Main = ({navigation}) => {
